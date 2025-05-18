@@ -1,3 +1,17 @@
 body {
     background-image: url(assets/background.jpg);
 }
+
+div.keys{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 13%;
+}
+
+.key{
+    padding: 15px;
+    color: #1a0505;
+    border-color: rgb(95, 93, 94);
+    border-style:outset;
+}
